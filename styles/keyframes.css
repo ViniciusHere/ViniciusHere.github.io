@@ -1,0 +1,38 @@
+@keyframes function {
+    0% {
+        color: transparent;
+    }
+    50% {
+        color: rgb(52, 3, 109);
+    }
+    80% {
+        color: rgb(52, 3, 109);
+    }
+    96% {
+        color: transparent;
+    }
+}
+
+@keyframes mark {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes write {
+    0% {
+        width: 0ch;
+    }
+    30% {
+        width: 0ch;
+    }
+    40% {
+        width: 6.7ch;
+    }
+    80% {
+        width: 6.7ch;
+    }
+    90% {
+        width: 0ch;
+    }
+}

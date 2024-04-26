@@ -1,0 +1,224 @@
+.main__profile {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    margin: 150px 0px 0px 260px;
+    background-color: var(--body-bg);
+}
+
+.main__profile__img {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+.main__text__box {
+    position: relative;
+}
+
+.main__profile__text {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-left: 250px;
+}
+
+.main__profile__name {
+    left: 510px;
+    top: -9px;
+    position: absolute;
+    color: var(--button-border);
+    font-size: 2.5rem;
+    border-right: 10px solid var(--button-border);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 5s steps(30, end) infinite;
+    width: 0;
+}
+
+.main__about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin: 6rem 0rem 0rem 0.5rem;
+    height: 30rem;
+    gap: 200px;
+    background-color: var(--body-bg);
+    padding-top: 400px;
+}
+
+.main__about__me {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: var(--text-color);
+}
+
+.main__about__me::after {
+    content: '( )';
+    font-size: 2.5rem;
+    color: transparent;
+    animation: function 3s infinite;
+}
+
+.main__about__text {
+    font-size: 1.5rem;
+    width: 1000px;
+    color: var(--text-color);
+    margin-right: 0.5rem;
+}
+
+.main__about__text::before {
+    content: '{ ';
+    color: transparent;
+    font-size: 2rem;
+    margin: -8px;
+    animation: function 3s infinite;
+}
+
+.main__about__text::after {
+    content: '}';
+    color: transparent;
+    font-size: 2rem;
+    animation: function 3s infinite;
+}
+
+.main__skills {
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 300px;
+}
+
+.main__skills__title {
+    color: var(--text-color);
+    font-size: 2.5rem;
+}
+
+.main__skill_list {
+    margin-top: 120px;
+}
+
+.main__skill_list ul {
+    display: flex;
+    gap: 10rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__skill_list ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main__skill_list ul li i {
+    font-size: 7rem;
+}
+
+.main__skill_list ul li p {
+    color: var(--text-color);
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.main__projects {
+    background-color: var(--body-bg);
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.projects__title {
+    color: var(--text-color);
+    font-size: 3rem;
+}
+
+.projects__box {
+    display: flex;
+    gap: 400px;
+}
+
+.project1 {
+    margin-top: 100px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: var(--project-bg);
+    border-radius: 10px;
+    position: relative;
+}
+
+.project1 img {
+    width: 300px;
+    height: 394px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.project__name {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.project__desc{
+    margin-top: 17px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.gotogit {
+    color: var(--button-border);
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 85px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.gotogit2 {
+    color: var(--button-border);
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 85px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.project1:hover .gotogit {
+    opacity: 1;
+}
+
+.project1:hover .gotogit2 {
+    opacity: 1;
+}
+
+.project1:hover img {
+    opacity: 0.3;
+}
+
+#linkedinIcon:hover {
+    transform: scale(1.2);
+    color: #0e76a8;
+}
+#gitIcon:hover {
+    transform: scale(1.2);
+    color: #171515;
+}
+#emailIcon:hover {
+    transform: scale(1.2);
+    color: var(--button-border);
+}
+
+
+

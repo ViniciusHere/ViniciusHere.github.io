@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/keyframes.css">
+    <link rel="stylesheet" href="styles/mediaQuery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Vinícius - Portfólio</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="header__list">
+            <li>
+                <a id="userImg" href="#about">sobre mim</a>
+            </li>
+            <li>
+                <a id="skillImg" href="#skill">minhas skills</a>
+            </li>
+            <li>
+                <a id="projectImg" href="#project">projetos</a>
+            </li>
+            <li>
+                <a id="contactImg" href="#contact">contato</a>
+            </li>
+        </ul>
+        <div class="header__button__box">
+            <div class="button__box">
+                <i class="fa-regular fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main__profile">
+            <img class="main__profile__img" src="imgs/foto.jpeg" alt="">
+            <div class="main__text__box">
+                <div class="main__profile__text">Olá, meu nome é </div>
+                <div class="main__profile__name">Vinícius</div>
+            </div>
+        </section>
+        <section id="about" class="main__about">
+            <h1 class="main__about__me">
+                Sobre mim
+            </h1>
+            <p class="main__about__text">
+                Eu sou um entusiasta da tecnologia e da programação, apaixonado por explorar as fronteiras da inovação digital. Estou me formando em Análise e Desenvolvimento de sistemas e procura uma oportunidade para me ingressar na área, desenvolvi alguns projetos ao decorrer dos meus estudos e estou sempre em busca de aprender mais
+            </p>
+        </section>
+        <section id="skill" class="main__skills">
+            <h2 class="main__skills__title">Minhas skills</h2>
+            <div class="main__skill_list">
+                <ul>
+                    <li>
+                        <i id="html" class="fa-brands fa-html5"></i>
+                        <p>HMTL</p>
+                    </li>
+                    <li>
+                        <i id="css" class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <i id="js" class="fa-brands fa-js"></i>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <i id="git" class="fa-brands fa-git-alt"></i>
+                        <p>Git</p>
+                    </li>
+                    <li>
+                        <i id="database" class="fa-solid fa-database"></i>
+                        <p>Database</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="project" class="main__projects">
+            <h2 class="projects__title">
+                Projetos
+            </h2>
+            <div class="projects__box">
+                <div class="project1">
+                    <img src="imgs/projeto1.png" alt="">
+                    <a class="gotogit" href="https://github.com/ViniciusHere/Temperature_check">🔗 ver no github</a>
+                    <p class="project__name">Temperature Check</p>
+                    <p class="project__desc">
+                        Tecnologias: 
+                        <i id="html" class="fa-brands fa-html5"></i>
+                        <i id="css" class="fa-brands fa-css3-alt"></i>
+                        <i id="js" class="fa-brands fa-js"></i>
+                    </p>
+                </div>
+                <div class="project1">
+                    <img src="imgs/projeto2.png" alt="">
+                    <a class="gotogit2" href="https://github.com/ViniciusHere/Check_List">🔗 ver no github</a>
+                    <p class="project__name">Check list</p>
+                    <p class="project__desc">
+                        Tecnologias: 
+                        <i id="html" class="fa-brands fa-html5"></i>
+                        <i id="css" class="fa-brands fa-css3-alt"></i>
+                        <i id="js" class="fa-brands fa-js"></i>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <h2 class="footer__contact">Contato</h2>
+        <div class="footer__contacts">
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/viniciushere/"><i id="linkedinIcon" class="fa-brands fa-linkedin"></i></a>
+                <p>https://www.linkedin.com/in/viniciushere/</p>
+            </div>
+            <div class="contact">
+                <a href="https://github.com/ViniciusHere"><i id="gitIcon" class="fa-brands fa-github"></i></a>
+                <p>https://github.com/ViniciusHere</p>
+            </div>
+            <div class="contact">
+                <a href="mailto:v.souza@outlook.pt"><i id="emailIcon" class="fa-regular fa-envelope"></i></a>
+                <p>v.souza@outlook.pt</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

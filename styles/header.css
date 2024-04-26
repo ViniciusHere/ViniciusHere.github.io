@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--body-bg);
+}
+
+.header {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--header-bg);
+}
+
+.header__list {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.header__list li a {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: var(--text-color);
+    transition: 0.4s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+.header__list li a:hover {
+    border: 1px solid var(--button-border);
+    background-color: var(--hover-button);
+}
+
+.header__button__box {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid var(--button-border);
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s;
+    z-index: 1;
+    cursor: pointer;
+    margin: 0px 10px 0px 100px;
+}
+
+.button__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: var(--button-border);
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.button__box::before {
+    content: '';
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(139, 139, 139, 0.356);
+    top: -7px;
+    left: -8px;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.header__button__box--toggle {
+    left: 70px;
+}
+

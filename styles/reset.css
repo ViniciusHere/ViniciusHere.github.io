@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#html {
+    color: #ff5e00
+}
+#css {
+    color: #0f49cf
+}
+#js {
+    color: #ffdd00
+}
+#git {
+    color: #F4511E
+}
+#database {
+    color: rgb(49, 49, 49);
+}
+
+:root {
+    --text-color: #C0C0C0;
+    --header-bg: rgb(3, 3, 3);
+    --body-bg: #000000;
+    --button-border: #ffffff;
+    --hover-button: rgba(37, 37, 37, 0.534);
+    --project-bg: rgb(8, 8, 8);
+}
+
+.light {
+    --body-bg: #ffffff;
+    --header-bg: #ffffff;
+    --text-color: #000000;
+    --button-border: #000000;
+    --hover-button: rgb(238, 238, 238);
+    --project-bg: rgba(49, 49, 49, 0.062);
+    
+}
